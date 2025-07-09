@@ -1,0 +1,131 @@
+.flex {
+  display: flex;
+}
+.flex-1 {
+  flex: 1 1 0%;
+}
+.flex-col {
+  flex-direction: column;
+}
+.items-center {
+  align-items: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.gap-2 {
+  gap: 0.5rem;
+}
+.h-screen {
+  height: 100vh;
+}
+.w-screen {
+  width: 100vw;
+}
+.overflow-y-auto {
+  overflow-y: auto;
+}
+.p-6 {
+  padding: 1.5rem;
+}
+.p-4 {
+  padding: 1rem;
+}
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+.border {
+  border: 1px solid #e5e7eb;
+}
+.border-b {
+  border-bottom: 1px solid #e5e7eb;
+}
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+.bg-white {
+  background-color: #ffffff;
+}
+.bg-neutral-50 {
+  background-color: #fafafa;
+}
+.bg-blue-600 {
+  background-color: #2563eb;
+}
+.bg-blue-700 {
+  background-color: #1d4ed8;
+}
+.text-neutral-900 {
+  color: #111827;
+}
+.text-white {
+  color: #ffffff;
+}
+.font-semibold {
+  font-weight: 600;
+}
+.font-medium {
+  font-weight: 500;
+}
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+.shadow-sm {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+.shadow-inner {
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.06);
+}
+.focus\:ring:focus {
+  outline: 2px solid #2563eb;
+  outline-offset: 2px;
+}
+/* Chat message bubbles */
+.message {
+  max-width: 75%;
+  margin-bottom: 1rem;
+  line-height: 1.4;
+  word-wrap: break-word;
+}
+.message.user {
+  align-self: flex-end;
+  background: #2563eb;
+  color: #ffffff;
+  border-radius: 0.75rem 0.75rem 0 0.75rem;
+  padding: 0.75rem 1rem;
+}
+.message.bot {
+  align-self: flex-start;
+  background: #e5e7eb;
+  border-radius: 0.75rem 0.75rem 0.75rem 0;
+  padding: 0.75rem 1rem;
+}
+
+.quick-replies {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 10px 0;
+}
+
+.quick-reply-btn {
+  background-color: #f0f0f0;
+  color: #333;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.quick-reply-btn:hover {
+  background-color: #d0d0d0;
+}
+
+
