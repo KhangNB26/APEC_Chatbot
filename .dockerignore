@@ -1,0 +1,9 @@
+.json
+__pycache__/
+*.zip
+*.wav
+*.mat
+*.csv
+.venv/
+.git/
+.gitignore
